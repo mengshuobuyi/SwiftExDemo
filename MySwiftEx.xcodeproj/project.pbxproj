@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420BE29C1DB9F71100C3BC18 /* BYTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420BE29B1DB9F71000C3BC18 /* BYTabBarViewController.swift */; };
+		420BE29E1DB9FF7100C3BC18 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420BE29D1DB9FF7100C3BC18 /* Constant.swift */; };
+		427AC8A21DBDD66900D9ACBC /* Show.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427AC8A11DBDD66900D9ACBC /* Show.storyboard */; };
+		427AC8A41DBDE30A00D9ACBC /* BYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427AC8A31DBDE30A00D9ACBC /* BYNavigationController.swift */; };
+		4280A38C1DDECD5E005D0543 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4280A38B1DDECD5E005D0543 /* TestViewController.swift */; };
 		428681541DB49E2000208330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428681531DB49E2000208330 /* AppDelegate.swift */; };
-		428681561DB49E2100208330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428681551DB49E2100208330 /* ViewController.swift */; };
 		428681591DB49E2100208330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428681571DB49E2100208330 /* Main.storyboard */; };
 		4286815B1DB49E2200208330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4286815A1DB49E2200208330 /* Assets.xcassets */; };
 		4286815E1DB49E2300208330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4286815C1DB49E2300208330 /* LaunchScreen.storyboard */; };
 		428681691DB49E2300208330 /* MySwiftExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428681681DB49E2300208330 /* MySwiftExTests.swift */; };
 		428681741DB49E2400208330 /* MySwiftExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428681731DB49E2400208330 /* MySwiftExUITests.swift */; };
+		428681851DB5B9A800208330 /* NetWorkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428681841DB5B9A800208330 /* NetWorkService.swift */; };
+		428681881DB5BA9700208330 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428681871DB5BA9700208330 /* APIConstant.swift */; };
+		4286818A1DB5BB0700208330 /* Initable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428681891DB5BB0700208330 /* Initable.swift */; };
+		42A3FB8B1DF10C82008E701E /* TestNWClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A3FB8A1DF10C82008E701E /* TestNWClient.swift */; };
+		42A3FB8E1DF53FCA008E701E /* ListViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A3FB8D1DF53FCA008E701E /* ListViewExtension.swift */; };
+		42A3FB901DF641F2008E701E /* MVVMTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A3FB8F1DF641F2008E701E /* MVVMTest.swift */; };
+		42A3FB921DF686FB008E701E /* StoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A3FB911DF686FB008E701E /* StoryboardExtension.swift */; };
+		42A3FB941DF6B156008E701E /* TestParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A3FB931DF6B156008E701E /* TestParse.swift */; };
+		81CF4DAC419866CA76063C11 /* Pods_MySwiftEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D744A2C540EC64F357A4D0D5 /* Pods_MySwiftEx.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E65996379AC35A58FD9C50C /* Pods-MySwiftEx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftEx.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySwiftEx/Pods-MySwiftEx.release.xcconfig"; sourceTree = "<group>"; };
+		420BE29B1DB9F71000C3BC18 /* BYTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYTabBarViewController.swift; sourceTree = "<group>"; };
+		420BE29D1DB9FF7100C3BC18 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		427AC8A11DBDD66900D9ACBC /* Show.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Show.storyboard; sourceTree = "<group>"; };
+		427AC8A31DBDE30A00D9ACBC /* BYNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYNavigationController.swift; sourceTree = "<group>"; };
+		4280A38B1DDECD5E005D0543 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		428681501DB49E1F00208330 /* MySwiftEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		428681531DB49E2000208330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		428681551DB49E2100208330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		428681581DB49E2100208330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4286815A1DB49E2200208330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4286815D1DB49E2300208330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +65,16 @@
 		4286816F1DB49E2400208330 /* MySwiftExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySwiftExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		428681731DB49E2400208330 /* MySwiftExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftExUITests.swift; sourceTree = "<group>"; };
 		428681751DB49E2400208330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428681841DB5B9A800208330 /* NetWorkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkService.swift; sourceTree = "<group>"; };
+		428681871DB5BA9700208330 /* APIConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		428681891DB5BB0700208330 /* Initable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Initable.swift; sourceTree = "<group>"; };
+		42A3FB8A1DF10C82008E701E /* TestNWClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestNWClient.swift; sourceTree = "<group>"; };
+		42A3FB8D1DF53FCA008E701E /* ListViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewExtension.swift; sourceTree = "<group>"; };
+		42A3FB8F1DF641F2008E701E /* MVVMTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMTest.swift; sourceTree = "<group>"; };
+		42A3FB911DF686FB008E701E /* StoryboardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardExtension.swift; sourceTree = "<group>"; };
+		42A3FB931DF6B156008E701E /* TestParse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestParse.swift; sourceTree = "<group>"; };
+		D744A2C540EC64F357A4D0D5 /* Pods_MySwiftEx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySwiftEx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA39BFDF89D9062BDC5F1F15 /* Pods-MySwiftEx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftEx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySwiftEx/Pods-MySwiftEx.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CF4DAC419866CA76063C11 /* Pods_MySwiftEx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +103,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		420BE29A1DB9F6DB00C3BC18 /* ContainerVC */ = {
+			isa = PBXGroup;
+			children = (
+				420BE29B1DB9F71000C3BC18 /* BYTabBarViewController.swift */,
+				427AC8A31DBDE30A00D9ACBC /* BYNavigationController.swift */,
+			);
+			path = ContainerVC;
+			sourceTree = "<group>";
+		};
+		4280A38A1DDECD1F005D0543 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4280A38B1DDECD5E005D0543 /* TestViewController.swift */,
+				42A3FB8A1DF10C82008E701E /* TestNWClient.swift */,
+				42A3FB931DF6B156008E701E /* TestParse.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		428681471DB49E1E00208330 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +129,8 @@
 				428681671DB49E2300208330 /* MySwiftExTests */,
 				428681721DB49E2400208330 /* MySwiftExUITests */,
 				428681511DB49E1F00208330 /* Products */,
+				D038D8897CCCEA3DC483CAB1 /* Pods */,
+				9B54E3BCFC5859E6B4A0C108 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +147,14 @@
 		428681521DB49E1F00208330 /* MySwiftEx */ = {
 			isa = PBXGroup;
 			children = (
+				42A3FB8C1DF53FB0008E701E /* Extensions */,
+				428681861DB5BA3700208330 /* Constant */,
+				428681831DB5B96500208330 /* NetWork */,
+				420BE29A1DB9F6DB00C3BC18 /* ContainerVC */,
+				4280A38A1DDECD1F005D0543 /* ViewControllers */,
 				428681531DB49E2000208330 /* AppDelegate.swift */,
-				428681551DB49E2100208330 /* ViewController.swift */,
 				428681571DB49E2100208330 /* Main.storyboard */,
+				427AC8A11DBDD66900D9ACBC /* Show.storyboard */,
 				4286815A1DB49E2200208330 /* Assets.xcassets */,
 				4286815C1DB49E2300208330 /* LaunchScreen.storyboard */,
 				4286815F1DB49E2300208330 /* Info.plist */,
@@ -125,6 +180,51 @@
 			path = MySwiftExUITests;
 			sourceTree = "<group>";
 		};
+		428681831DB5B96500208330 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				428681841DB5B9A800208330 /* NetWorkService.swift */,
+				428681891DB5BB0700208330 /* Initable.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		428681861DB5BA3700208330 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				428681871DB5BA9700208330 /* APIConstant.swift */,
+				420BE29D1DB9FF7100C3BC18 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		42A3FB8C1DF53FB0008E701E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				42A3FB8D1DF53FCA008E701E /* ListViewExtension.swift */,
+				42A3FB8F1DF641F2008E701E /* MVVMTest.swift */,
+				42A3FB911DF686FB008E701E /* StoryboardExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9B54E3BCFC5859E6B4A0C108 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D744A2C540EC64F357A4D0D5 /* Pods_MySwiftEx.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D038D8897CCCEA3DC483CAB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA39BFDF89D9062BDC5F1F15 /* Pods-MySwiftEx.debug.xcconfig */,
+				3E65996379AC35A58FD9C50C /* Pods-MySwiftEx.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 428681781DB49E2400208330 /* Build configuration list for PBXNativeTarget "MySwiftEx" */;
 			buildPhases = (
+				E752686128CA8763D636B8E0 /* [CP] Check Pods Manifest.lock */,
 				4286814C1DB49E1F00208330 /* Sources */,
 				4286814D1DB49E1F00208330 /* Frameworks */,
 				4286814E1DB49E1F00208330 /* Resources */,
+				C00B9590B1A0866A57CC967B /* [CP] Embed Pods Frameworks */,
+				76E195738D950C7A0D286C10 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,15 +296,19 @@
 				TargetAttributes = {
 					4286814F1DB49E1F00208330 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2Y8FG5UBJG;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					428681631DB49E2300208330 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4286814F1DB49E1F00208330;
 					};
 					4286816E1DB49E2400208330 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4286814F1DB49E1F00208330;
 					};
@@ -235,6 +342,7 @@
 				4286815E1DB49E2300208330 /* LaunchScreen.storyboard in Resources */,
 				4286815B1DB49E2200208330 /* Assets.xcassets in Resources */,
 				428681591DB49E2100208330 /* Main.storyboard in Resources */,
+				427AC8A21DBDD66900D9ACBC /* Show.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +362,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		76E195738D950C7A0D286C10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MySwiftEx/Pods-MySwiftEx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C00B9590B1A0866A57CC967B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MySwiftEx/Pods-MySwiftEx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E752686128CA8763D636B8E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4286814C1DB49E1F00208330 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				428681561DB49E2100208330 /* ViewController.swift in Sources */,
+				4286818A1DB5BB0700208330 /* Initable.swift in Sources */,
+				420BE29E1DB9FF7100C3BC18 /* Constant.swift in Sources */,
+				42A3FB8B1DF10C82008E701E /* TestNWClient.swift in Sources */,
+				4280A38C1DDECD5E005D0543 /* TestViewController.swift in Sources */,
+				428681881DB5BA9700208330 /* APIConstant.swift in Sources */,
+				428681851DB5B9A800208330 /* NetWorkService.swift in Sources */,
 				428681541DB49E2000208330 /* AppDelegate.swift in Sources */,
+				427AC8A41DBDE30A00D9ACBC /* BYNavigationController.swift in Sources */,
+				42A3FB941DF6B156008E701E /* TestParse.swift in Sources */,
+				42A3FB8E1DF53FCA008E701E /* ListViewExtension.swift in Sources */,
+				42A3FB901DF641F2008E701E /* MVVMTest.swift in Sources */,
+				42A3FB921DF686FB008E701E /* StoryboardExtension.swift in Sources */,
+				420BE29C1DB9F71100C3BC18 /* BYTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,9 +577,12 @@
 		};
 		428681791DB49E2400208330 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA39BFDF89D9062BDC5F1F15 /* Pods-MySwiftEx.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Y8FG5UBJG;
 				INFOPLIST_FILE = MySwiftEx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codyy.MySwiftEx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +592,12 @@
 		};
 		4286817A1DB49E2400208330 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E65996379AC35A58FD9C50C /* Pods-MySwiftEx.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Y8FG5UBJG;
 				INFOPLIST_FILE = MySwiftEx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codyy.MySwiftEx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +678,7 @@
 				4286817A1DB49E2400208330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4286817B1DB49E2400208330 /* Build configuration list for PBXNativeTarget "MySwiftExTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +687,7 @@
 				4286817D1DB49E2400208330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4286817E1DB49E2400208330 /* Build configuration list for PBXNativeTarget "MySwiftExUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +696,7 @@
 				428681801DB49E2400208330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
